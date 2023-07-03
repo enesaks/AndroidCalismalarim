@@ -2,6 +2,7 @@ package com.example.artbook;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -15,9 +16,13 @@ import android.view.View;
 
 import com.example.artbook.databinding.ActivityMainBinding;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    ArrayList<Art> artArrayList;
+    artAdaptor artadaptor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
+
+        artArrayList = new ArrayList<>();
+
+        binding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        artadaptor = new artAdaptor(artArrayList);
+        binding.recyclerView.setAdapter(artadaptor);
 
         getData();
 
@@ -35,7 +46,21 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             SQLiteDatabase sqLiteDatabase = this.openOrCreateDatabase("Arts",MODE_PRIVATE,null);
+
             Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM arts",null);
+            int nameIx = cursor.getColumnIndex("artname");
+            int idIx = cursor.getColumnIndex("id");
+
+            while(cursor.moveToNext()){
+
+                String name  = cursor.getString(nameIx);
+                int id = cursor.getInt(idIx);
+                Art art = new Art(name,id);
+                artArrayList.add(art);
+            }
+
+            artadaptor.notifyDataSetChanged();
+            cursor.close();
 
 
         }catch (Exception e){
@@ -59,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.add_art ){
             Intent intent = new Intent(this,ArtActivity.class);
+            intent.putExtra("info","new");
             startActivity(intent);
         }
 
