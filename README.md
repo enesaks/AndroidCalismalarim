@@ -20,3 +20,6 @@ Uygulaması __SQLLite Database__ kullanımı __Permission(Kulanıcı İzinleri)_
 Kodaları [ArtBook](https://github.com/enesaks/AndroidCalismalarim/tree/main/ArtBook/app/src/main/java/com/example/artbook) ve [layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/ArtBook/app/src/main/res/layout)
 
 # SeyahatKitabım
+Uygulaması __Google haritalarını__ kulanarak kişinin harita üzerinden seçtiği yerleri __Room__ sınıfı yardımıyla SQL databesine kaydetmesini sağlayan bir uygulama.Bu uygulamada hem kulanıcıadan konum izini almayı,Room ile datebase e veri kaydetmeyi hemde __RxJava__ kulanarak databese işlemlerinin arkaplanda yaprak uygulamanın önyüzüne çok yuk bindirmeden çalışmasını sağlamamı öğrendiğim bir uygulama oldu.
+
+Kodları [SeyahatKitabim](https://github.com/enesaks/AndroidCalismalarim/tree/main/SeyahatKitapim/app/src/main/java/com/example/seyahatkitapim) ve [layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/SeyahatKitapim/app/src/main/res/layout)
