@@ -1,25 +1,33 @@
-__AndroidCalismalarim__
+# Android Çalışmalarım
 
- 
-# Kennyi Yakalama  
+Bu repository, Android uygulama geliştirme çalışmalarımı içermektedir. Aşağıda yer alan projelerde farklı konuları öğrenmek ve uygulamak amacıyla çalışmalar yaptım.
 
-Oyunu __CountDownTimer__ kulanarak zamanlayıcı yapımı ,__AlertDialog__ kulanımı ve __layoutParams__ kulanarak imageView'ıFarklı posizyonlara taşımamı nasıl yapabilceğimi öprendiğim bir uygulama.
+## Kenny'i Yakalama Oyunu
 
-Kodaları : [MainActivity.java](https://github.com/enesaks/AndroidCalismalarim/blob/main/KennyiYakalamaOyunu/app/src/main/java/com/example/keniyiyakalamaoyunu/MainActivity.java) , [activity_main.xml
-](https://github.com/enesaks/AndroidCalismalarim/blob/main/KennyiYakalamaOyunu/app/src/main/res/layout/activity_main.xml)
+Bu uygulamada, zamanlayıcı kullanarak geri sayım işlemini, **AlertDialog** kullanımını ve **ImageView'ı farklı konumlara taşımak için layoutParams** kullanımını öğrendim.
 
-# LandMarkBook 
+- [MainActivity.java](https://github.com/enesaks/AndroidCalismalarim/blob/main/KennyiYakalamaOyunu/app/src/main/java/com/example/keniyiyakalamaoyunu/MainActivity.java)
+- [activity_main.xml](https://github.com/enesaks/AndroidCalismalarim/blob/main/KennyiYakalamaOyunu/app/src/main/res/layout/activity_main.xml)
 
-Uygulaması __RecylerView__ kullanımı,__View binding__ kulanımı ve __Singleton__ kulanımın öğrendiğim bir uygulama.
+## LandMarkBook
 
-Kodaları [landmarkbook](https://github.com/enesaks/AndroidCalismalarim/tree/main/LandMarkBook/app/src/main/java/com/example/landmarkbook) ve [layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/LandMarkBook/app/src/main/res/layout)
+Bu uygulamada, **RecyclerView** kullanımını, **View Binding** kullanımını ve **Singleton** tasarım desenini öğrendim.
 
-# ArtBook 
-Uygulaması __SQLLite Database__ kullanımı __Permission(Kulanıcı İzinleri)__ kulanıcıdan izin alarak galerisine girmeyi, galaerisinden çektiğimiz fotoğrafı uygulama içerisinde göstermeyi ve bunları sql de kayıt ederek __RecylerView__ de sıralayan bir uygulama oldu.
+- [Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/LandMarkBook/app/src/main/java/com/example/landmarkbook)
+- [Layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/LandMarkBook/app/src/main/res/layout)
 
-Kodaları [ArtBook](https://github.com/enesaks/AndroidCalismalarim/tree/main/ArtBook/app/src/main/java/com/example/artbook) ve [layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/ArtBook/app/src/main/res/layout)
+## ArtBook
 
-# SeyahatKitabım
-Uygulaması __Google haritalarını__ kulanarak kişinin harita üzerinden seçtiği yerleri __Room__ sınıfı yardımıyla SQL databesine kaydetmesini sağlayan bir uygulama.Bu uygulamada hem kulanıcıadan konum izini almayı,Room ile datebase e veri kaydetmeyi hemde __RxJava__ kulanarak databese işlemlerinin arkaplanda yaprak uygulamanın önyüzüne çok yuk bindirmeden çalışmasını sağlamamı öğrendiğim bir uygulama oldu.
+Bu uygulamada, **SQLite veritabanı** kullanımını, **kullanıcı izinlerini almayı**, galeriden **fotoğraf seçmeyi** ve seçilen fotoğrafı uygulamada göstermeyi ve bunları veritabanında saklamayı öğrendim.
 
-Kodları [SeyahatKitabim](https://github.com/enesaks/AndroidCalismalarim/tree/main/SeyahatKitapim/app/src/main/java/com/example/seyahatkitapim) ve [layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/SeyahatKitapim/app/src/main/res/layout)
+- [Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/ArtBook/app/src/main/java/com/example/artbook)
+- [Layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/ArtBook/app/src/main/res/layout)
+
+## Seyahat Kitabım
+
+Bu uygulamada, **Google Haritalarını kullanarak kullanıcının harita üzerinde seçtiği yerleri Room veritabanına kaydetmeyi** öğrendim. Ayrıca, **konum izni almayı**, Room ile veritabanı işlemlerini arkaplanda **RxJava kullanarak yapmayı** ve uygulamanın performansını artırmayı amaçladım.
+
+- [Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/SeyahatKitapim/app/src/main/java/com/example/seyahatkitapim)
+- [Layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/SeyahatKitapim/app/src/main/res/layout)
+
+Bu projelerde edindiğim bilgileri ve deneyimleri paylaşmaya devam edeceğim. Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bana ulaşmaktan çekinmeyin.
