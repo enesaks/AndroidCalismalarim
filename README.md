@@ -30,4 +30,11 @@ Bu uygulamada, **Google Haritalarını kullanarak kullanıcının harita üzerin
 - [Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/SeyahatKitapim/app/src/main/java/com/example/seyahatkitapim)
 - [Layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/SeyahatKitapim/app/src/main/res/layout)
 
+## Instagram Clone
+
+Bu uygulama **Firebase veritabanı kullanarak** login ve register işlemleri yapmamızı sağlayan bir giriş ekranı, galerimizden fotoğraf seçerek altına yorum yazarak **upload ettiğimiz ve bu yorum ve fotğrafın firebase yükleyip tekrar firebasden çekerek** RcyclerView kulanarak kim tarafından yüklendiği, fotoğraf ve yorum şeklinde sırasıyla instagram benzeri bi feed te listeleyen bir uygulama.
+
+- [Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/InstagramClone/app/src/main/java/com/enesaksu/instagramclone)
+- [Layout](https://github.com/enesaks/AndroidCalismalarim/tree/main/InstagramClone/app/src/main/res/layout)
+
 Bu projelerde edindiğim bilgileri ve deneyimleri paylaşmaya devam edeceğim. Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bana ulaşmaktan çekinmeyin.
