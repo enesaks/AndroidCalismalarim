@@ -73,6 +73,7 @@ Bu ugulamada __LibGDX__ kütüphanesini kullanarak flipBird benzeri, ekrana her 
 
 ## KriptoParaTakip
 Bu uygulama RecyclerViev ekranında kripto paraların ismi ve fiyatlarının yazdığı basit bir uygulama.Bu uygulamanın içerisindeki bilgileri bir __API__ dan __Retrofit__ kütüphanesi kulanarak veriyi çekip listeledik, ek olarak __RxJava__ kullanarak kodumuzu daha verimli bir hale getirdik.
+
 <img src="https://github.com/enesaks/AndroidCalismalarim/blob/main/KriptoParaTakip/UygulamaGoruntusu.png" alt="Açıklama" width="150">
 
 -[Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/KriptoParaTakip/app/src/main/java/com/enesaksu/kriptoparatakip)
