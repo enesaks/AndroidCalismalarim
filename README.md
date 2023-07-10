@@ -39,4 +39,8 @@ Bu uygulama **Firebase veritabanı kullanarak** login ve register işlemleri yap
 
 ## Survivor Bird
 
+Bu ugulamada __LibGDX__ kullanarak flipBird benzeri, ekrana her tıklandığında kuşu uçucrarak düşmanları arasından geçirdiğimiz basit bir oyun.
+
+-[Kodalar](https://github.com/enesaks/AndroidCalismalarim/blob/main/SurvivorBird/core/src/com/enesaksu/survivorbird/SurvivorBird.java)
+
 Bu projelerde edindiğim bilgileri ve deneyimleri paylaşmaya devam edeceğim. Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bana ulaşmaktan çekinmeyin.
