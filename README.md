@@ -82,15 +82,15 @@ Bu uygulama RecyclerViev ekranında kripto paraların ismi ve fiyatlarının yaz
 ## Fragment Çalısmaları
 __FragmentCalismasi__ fragmentleri öğrenmek için iki fragment arası geçiş yapan basit bir uygulama.
 
-[Kodalar](https://github.com/enesaks/AndroidCalismalarim/tree/main/FragmentCalismasi/app/src/main)
+-[Kodalar](https://github.com/enesaks/AndroidCalismalarim/tree/main/FragmentCalismasi/app/src/main)
 
 __TappedFragmentCalismasi__ Tapped Fragment için basit alıştırma.
 
-[Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/TappedFragmentCalismasi/app/src/main)
+-[Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/TappedFragmentCalismasi/app/src/main)
 
 __NavigationFragmentCalismasi__ Android jetpack kütüphanesine ait olan navigation kütüphanesini öğrenme amaçlı bir uygulama.
 
-[Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/NavigationFragmentCalismasi/app/src/main)
+-[Kodlar](https://github.com/enesaks/AndroidCalismalarim/tree/main/NavigationFragmentCalismasi/app/src/main)
 
 
 
