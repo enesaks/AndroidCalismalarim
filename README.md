@@ -1,6 +1,6 @@
 # Android Çalışmalarım
 
-Bu repository, Android uygulama geliştirme çalışmalarımı içermektedir. Aşağıda yer alan projelerde farklı konuları öğrenmek ve uygulamak amacıyla çalışmalar yaptım.
+Bu repository,Udemy de Android uygulama geliştirme kursunda öğrendiğim çalışmalarımı içermektedir. Aşağıda yer alan projelerde farklı konuları öğrenmek ve uygulamak amacıyla yapılmıştır.
 
 ## Kenny'i Yakalama Oyunu
 
